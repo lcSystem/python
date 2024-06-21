@@ -1,0 +1,12 @@
+gasto,-16000.00,pago total de la deuda,sandra ochoa,2024-05-23 18:03:21,2024-05-23 12:16:27
+ingreso,1000.00,prueba ,pruebas,2024-05-23 18:42:22,2024-05-23 18:42:06
+ingreso,-1000.00,pago total,pruebas,2024-05-23 18:43:10,2024-05-23 18:42:06
+ingreso,-90000.00,abono yomaira -E. martinez,estefany martinez,2024-05-23 20:47:42,2024-05-22 18:04:36
+ingreso,-2000.00,abono prueb,p,2024-05-24 13:28:25,2024-05-24 13:28:10
+ingreso,-2000.00,pago total,p,2024-05-24 13:28:52,2024-05-24 13:28:10
+ingreso,-42000.00,nequis,dina,2024-05-25 13:36:17,2024-05-23 09:57:50
+ingreso,-18000.00,efectivo,dina,2024-05-25 13:37:45,2024-05-23 09:57:50
+ingreso,-40000.00,pago total,dina,2024-05-25 13:54:17,2024-05-23 09:57:50
+ingreso,-39150.00,pago total nequis,dina luz,2024-05-25 13:54:54,2024-05-22 18:03:32
+ingreso,2500.00,aguacate,miguel cardenas,2024-05-26 14:05:10,2024-05-22 18:06:11
+gasto,1000.00,prestamo para espejo,sandra ochoa,2024-05-26 14:10:51,2024-05-23 12:16:27
