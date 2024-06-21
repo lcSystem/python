@@ -1,0 +1,18 @@
+un .exe para ejecutar un tomcat con el fin de que me genere dos ejecutables uno para weindows y otro para linux auto ejecutar el war y la consola cuando de clic en el .exe al cerrar consola cerrar server
+
+una interfaz de sql
+
+probar flash api
+
+PROMPT Crea GET_PARAMETRO CLAVE_AUTENTICACION_SMTP...
+
+  DECLARE
+    BEGIN   
+        UPDATE INTO GET_PARAMETRO (COMPONENTE,PARAMETRO,ORGANIZACION,TIPO,PERMITE_NULO,VALOR,DESCRIPCION) VALUES
+            ('CR','CLAVE_AUTENTICACION_SMTP','1','S','N','nixfitoqvrcdbqpl',
+                  'Clave del Usuario con el que se autenticará para el envio del correo')
+        WHERE PARAMETRO = 'CLAVE_AUTENTICACION_SMTP' 
+        AND COMPONETE ='CR';
+    COMMIT;
+  END;
+/

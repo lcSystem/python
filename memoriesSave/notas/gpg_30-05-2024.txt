@@ -1,0 +1,6 @@
+gpg --symmetric --cipher-algo AES256 key.txt
+nano ~/.gnupg/gpg-agent.conf
+default-cache-ttl 0
+max-cache-ttl 0
+gpgconf --reload gpg-agent
+gpg --no-symkey-cache key.txt.gpg

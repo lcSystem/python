@@ -1,0 +1,26 @@
+SET PAGESIZE 50000
+SET LINESIZE 200
+COL owner FORMAT A20
+COL segment_name FORMAT A30
+COL segment_type FORMAT A20
+COL size_mb FORMAT 999,999,999
+
+SELECT owner,
+       segment_name,
+       segment_type,
+       SUM(bytes) / 1024 / 1024 AS size_mb
+FROM dba_segments
+GROUP BY owner, segment_name, segment_type
+ORDER BY size_mb DESC;
+
+SELECT SUM(bytes) / 1024 / 1024 AS total_size_mb
+FROM dba_segments;
+/
+CREATE DIRECTORY exp_dir AS '/home/lsyst/Documentos/db/bd';
+GRANT READ, WRITE ON DIRECTORY exp_dir TO iceberg;
+/
+expdp iceberg/iceberg0 FULL=Y DIRECTORY=exp_dir DUMPFILE=full_db_export.dmp LOGFILE=full_db_export.log
+/
+tail -f /home/lsyst/bd/full_db_export.log
+/
+SELECT * FROM dba_sys_privs WHERE grantee = 'ICEADMIN';

@@ -1,0 +1,3 @@
+bloquear pc en el sentido de que cundo le de clic a un sh no permita realizr ninguna accion amenoz que me reconozca por medio de micamara no quiero que se hiberne mi pc linux mint solo quiero que me idfentifique por medio de la camara las acciones serian las sigueintes:
+
+le doy doble clic al sh desde ese momento no debe dejar usar ninguna aplicacion amenos que me identifique como dueño debe poderme identificar por medio de mi camara o si quiero po una clave que yo definireen python  no se debe poder usar nada de mi sistema si no me identifica por medio de mi camara y debe esta identificando constante mente amenos que ya haiga desbloqueado con mi cara con IA

@@ -1,0 +1,186 @@
+select cli.cliente,PER.IDENTIFICACION from cliente cli 
+INNER JOIN persona per on per.SECUENCIA_PERSONA = cli.SECUENCIA_PERSONA
+where cli.cliente = 2241044
+
+SELECT
+    linea_credito                            lineacredito,
+    descripcion,
+    decode(tipo_linea, 'L', 'LIBRE', 'P', 'PRODUCTOS',
+           'M', 'MATRICULA', 'C', 'CARTERA') tipolinea,
+    nvl(pago_inicial, 0)                     pagoinicial,
+    plazo,
+    porcentaje_mora                          porcentajemora,
+    pago_inicial                             porcentajepagoinicial,
+    tipo_pago_inicial                        tipopagoinicial,
+    decode(modalidad_pago, 'C', 'CHEQUE', 'P', 'PAGARE',
+           'O', 'OTRO', 'L', 'LETRA')        modalidadpago,
+    tipo_gastos_administracion               tipogastosadministracion,
+    valor_gastos_administracion              valorgastosadministracion,
+    periodo,
+    pago_interes_anticipado                  pagointeresanticipado,
+    valida_deuda_solicitud                   validadeudasolicitud,
+    porcentaje,
+    centro_costo
+FROM
+    linea_credito
+WHERE
+        estado = 'V'
+    AND aplica_solicitud = 'S'
+    AND ( tipo_linea = 'P'
+          OR ( tipo_linea = 'C'
+               AND ( ( ( EXISTS (
+        SELECT
+            'x'
+        FROM
+            jerarquia_centro_costo
+        WHERE
+                centro_costo = linea_credito.centro_costo
+            AND centro_costo_hijo IN (
+                SELECT
+                    centro_costo
+                FROM
+                    cliente
+                WHERE
+                    cliente = 1067882962
+            )
+    ) )
+                       AND nvl((
+        SELECT
+            upper(valor)
+        FROM
+            get_parametro
+        WHERE
+                parametro = 'VALIDA_CENTRO_LINEA'
+            AND componente = 'CR'
+    ), 'N') = 'S' )
+                     OR ( nvl((
+        SELECT
+            upper(valor)
+        FROM
+            get_parametro
+        WHERE
+                parametro = 'VALIDA_CENTRO_LINEA'
+            AND componente = 'CR'
+    ), 'N') = 'N' ) ) )
+          OR ( tipo_linea = 'M'
+               AND ( EXISTS (
+        SELECT
+            'x'
+        FROM
+                 orden ord
+            INNER JOIN vencimiento_periodo     vc ON vc.grupo = ord.grupo
+                                                 AND vc.periodo = ord.periodo
+            INNER JOIN crt_linea_periodo_fecha lpf ON lpf.porcentaje = vc.porcentaje
+                                                      AND lpf.periodo = vc.periodo
+        WHERE
+                ord.cliente_solicitado = 1067882962
+            AND ord.periodo IN (
+                SELECT DISTINCT
+                    periodo
+                FROM
+                    crt_periodo_solicitud
+                WHERE
+                    estado = 'A'
+            )
+            AND vc.fecha_vencimiento >= trunc(sysdate)
+            AND lpf.linea_credito = linea_credito.linea_credito
+            AND 'S' = 'S'
+            AND ( ( ( ord.documento IN (
+                SELECT
+                    column_value AS documento
+                FROM
+                    TABLE ( split(nvl((
+                        SELECT
+                            upper(valor)
+                        FROM
+                            get_parametro
+                        WHERE
+                                parametro = 'DOCUMENTO_MATRICULA_CREDITO'
+                            AND componente = 'CR'
+                    ), ord.documento), ',') )
+            ) )
+                    AND nvl((
+                SELECT
+                    upper(valor)
+                FROM
+                    get_parametro
+                WHERE
+                        parametro = 'VALIDA_DOCUMENTO_MATRICULA'
+                    AND componente = 'CR'
+            ), 'N') = 'S' )
+                  OR ( nvl((
+                SELECT
+                    upper(valor)
+                FROM
+                    get_parametro
+                WHERE
+                        parametro = 'VALIDA_DOCUMENTO_MATRICULA'
+                    AND componente = 'CR'
+            ), 'N') = 'N' ) )
+    )
+                     OR ( 'S' = 'N' ) )
+               AND ( ( modalidad_pago != 'C'
+                       AND EXISTS (
+        SELECT
+            'x'
+        FROM
+                 credito cr
+            INNER JOIN documento_credito dc ON dc.secuencia = cr.secuencia
+        WHERE
+            cr.estado IN ( 'C', 'E', 'N' )
+            AND cr.cliente = 1067882962
+            AND dc.tipo_documento != 'C'
+    )
+                       AND nvl((
+        SELECT
+            valor
+        FROM
+            get_parametro
+        WHERE
+                parametro = 'VALIDA_SOPORTE_LINEA'
+            AND componente = 'CR'
+    ), 'N') = 'S' )
+                     OR ( modalidad_pago = 'C' )
+                     OR ( nvl((
+        SELECT
+            valor
+        FROM
+            get_parametro
+        WHERE
+                parametro = 'VALIDA_SOPORTE_LINEA'
+            AND componente = 'CR'
+    ), 'N') = 'N' ) )
+               AND ( ( ( EXISTS (
+        SELECT
+            'x'
+        FROM
+            jerarquia_centro_costo
+        WHERE
+                centro_costo = linea_credito.centro_costo
+            AND centro_costo_hijo IN (
+                SELECT
+                    centro_costo
+                FROM
+                    cliente
+                WHERE
+                    cliente = 1067882962
+            )
+    ) )
+                       AND nvl((
+        SELECT
+            upper(valor)
+        FROM
+            get_parametro
+        WHERE
+                parametro = 'VALIDA_CENTRO_LINEA'
+            AND componente = 'CR'
+    ), 'N') = 'S' )
+                     OR ( nvl((
+        SELECT
+            upper(valor)
+        FROM
+            get_parametro
+        WHERE
+                parametro = 'VALIDA_CENTRO_LINEA'
+            AND componente = 'CR'
+    ), 'N') = 'N' ) ) ) )
