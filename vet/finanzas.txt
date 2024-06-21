@@ -1,0 +1,18 @@
+ingreso,0.00,deuda total,dina luz,2024-05-22 18:03:32
+ingreso,201650.00,deuda total,estefany martinez,2024-05-22 18:04:36
+ingreso,11000.00,perro cristin,tatiana cardenas,2024-05-22 18:05:02
+ingreso,16500.00,resta chorizo de 33mil,miguel cardenas,2024-05-22 18:06:11
+ingreso,100000.00,prestamo,jose tio de martinez,2024-05-22 18:06:45
+ingreso,800000.00,deuda portatil de eliana,carlos,2024-05-22 18:07:23
+ingreso,10000000.00,prestamo casa,candelaria,2024-05-22 18:08:01
+ingreso,1000000.00,prestamop ara pagoa trabajadores,viviana,2024-05-22 18:08:48
+ingreso,100000.00,prestamo,leider,2024-05-22 18:09:03
+ingreso,200000.00,prestamo,villa,2024-05-22 18:09:20
+ingreso,460000.00,prestamo total,joel,2024-05-22 18:09:41
+ingreso,60000.00,control exbox,luis miguel,2024-05-22 21:36:18
+gasto,3000000.00,moto,miguel cardenas,2024-05-22 21:37:48
+ingreso,0.00,prestamo para mandar cama,dina,2024-05-23 09:57:50
+ingreso,100000.00,venta de somier,dina luz,2024-05-23 10:00:26
+gasto,1000.00,pre4stamo 14 cita martinez y 2,sandra ochoa,2024-05-23 12:16:27
+ingreso,100000.00,prestamo,luis miguel,2024-05-24 08:39:54
+ingreso,90000.00,prestamo para moto,italo,2024-05-25 13:35:41
