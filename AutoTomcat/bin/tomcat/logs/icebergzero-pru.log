@@ -1,0 +1,172 @@
+ INFO->07/06/2024@13:50:54 (ConfiguradorIbatis.java:55)- SqlSession configurado OK!! 
+ INFO->07/06/2024@13:50:54 (ContextoAplicacionListener.java:56)- ruta: /home/lsyst/Documentos/python/encapsulator/version1.1/tomcat/webapps/icebergzero-pru/
+ INFO->07/06/2024@13:50:54 (ContextoAplicacionListener.java:61)- jdbc:oracle:thin:@172.28.2.21:1521/CLA
+ INFO->07/06/2024@13:50:54 (ContextoAplicacionListener.java:62)- username: iceberg
+ INFO->07/06/2024@13:50:54 (NotificacionCreditoJobScheduler.java:35)- ------- Scheduling Job  -------------------
+ INFO->07/06/2024@13:50:54 (NotificacionCreditoJobScheduler.java:48)- group1.job1 will run at: Fri Jun 07 13:51:00 COT 2024
+ INFO->07/06/2024@14:19:09 (ConfiguradorIbatis.java:55)- SqlSession configurado OK!! 
+ INFO->07/06/2024@14:19:10 (ContextoAplicacionListener.java:56)- ruta: /home/lsyst/Documentos/python/encapsulator/version1.1/tomcat/webapps/icebergzero-pru/
+ INFO->07/06/2024@14:19:10 (ContextoAplicacionListener.java:61)- jdbc:oracle:thin:@172.28.2.21:1521/CLA
+ INFO->07/06/2024@14:19:10 (ContextoAplicacionListener.java:62)- username: iceberg
+ INFO->07/06/2024@14:19:10 (NotificacionCreditoJobScheduler.java:35)- ------- Scheduling Job  -------------------
+ INFO->07/06/2024@14:19:10 (NotificacionCreditoJobScheduler.java:48)- group1.job1 will run at: Fri Jun 07 14:20:00 COT 2024
+ INFO->07/06/2024@15:05:13 (ConfiguradorIbatis.java:55)- SqlSession configurado OK!! 
+ INFO->07/06/2024@15:05:13 (ContextoAplicacionListener.java:56)- ruta: /home/lsyst/Documentos/python/encapsulator/version1.1/tomcat/webapps/icebergzero-pru/
+ INFO->07/06/2024@15:05:13 (ContextoAplicacionListener.java:61)- jdbc:oracle:thin:@172.28.2.21:1521/CLA
+ INFO->07/06/2024@15:05:13 (ContextoAplicacionListener.java:62)- username: iceberg
+ INFO->07/06/2024@15:05:13 (NotificacionCreditoJobScheduler.java:35)- ------- Scheduling Job  -------------------
+ INFO->07/06/2024@15:05:13 (NotificacionCreditoJobScheduler.java:48)- group1.job1 will run at: Fri Jun 07 15:06:00 COT 2024
+ INFO->07/06/2024@15:10:33 (ConfiguradorIbatis.java:55)- SqlSession configurado OK!! 
+ INFO->07/06/2024@15:10:33 (ContextoAplicacionListener.java:56)- ruta: /home/lsyst/Documentos/python/encapsulator/version1.1/tomcat/webapps/icebergzero-pru/
+ INFO->07/06/2024@15:10:33 (ContextoAplicacionListener.java:61)- jdbc:oracle:thin:@172.28.2.21:1521/CLA
+ INFO->07/06/2024@15:10:33 (ContextoAplicacionListener.java:62)- username: iceberg
+ INFO->07/06/2024@15:10:33 (NotificacionCreditoJobScheduler.java:35)- ------- Scheduling Job  -------------------
+ INFO->07/06/2024@15:10:33 (NotificacionCreditoJobScheduler.java:48)- group1.job1 will run at: Fri Jun 07 15:11:00 COT 2024
+ INFO->07/06/2024@15:13:39 (ConfiguradorIbatis.java:55)- SqlSession configurado OK!! 
+ INFO->07/06/2024@15:13:39 (ContextoAplicacionListener.java:56)- ruta: /home/lsyst/Documentos/python/encapsulator/version1.1/tomcat/webapps/icebergzero-pru/
+ INFO->07/06/2024@15:13:39 (ContextoAplicacionListener.java:61)- jdbc:oracle:thin:@172.28.2.21:1521/CLA
+ INFO->07/06/2024@15:13:39 (ContextoAplicacionListener.java:62)- username: iceberg
+ INFO->07/06/2024@15:13:39 (NotificacionCreditoJobScheduler.java:35)- ------- Scheduling Job  -------------------
+ INFO->07/06/2024@15:13:39 (NotificacionCreditoJobScheduler.java:48)- group1.job1 will run at: Fri Jun 07 15:14:00 COT 2024
+ INFO->07/06/2024@15:27:07 (ConfiguradorIbatis.java:55)- SqlSession configurado OK!! 
+ INFO->07/06/2024@15:27:07 (ContextoAplicacionListener.java:56)- ruta: /home/lsyst/Documentos/python/encapsulator/version1.1/tomcat/webapps/icebergzero-pru/
+ INFO->07/06/2024@15:27:07 (ContextoAplicacionListener.java:61)- jdbc:oracle:thin:@172.28.2.21:1521/CLA
+ INFO->07/06/2024@15:27:07 (ContextoAplicacionListener.java:62)- username: iceberg
+ INFO->07/06/2024@15:27:07 (NotificacionCreditoJobScheduler.java:35)- ------- Scheduling Job  -------------------
+ INFO->07/06/2024@15:27:07 (NotificacionCreditoJobScheduler.java:48)- group1.job1 will run at: Fri Jun 07 15:28:00 COT 2024
+ INFO->07/06/2024@16:01:37 (ConfiguradorIbatis.java:55)- SqlSession configurado OK!! 
+ INFO->07/06/2024@16:01:37 (ContextoAplicacionListener.java:56)- ruta: /home/lsyst/Documentos/python/encapsulator/version1.1/tomcat/webapps/icebergzero-pru/
+ INFO->07/06/2024@16:01:37 (ContextoAplicacionListener.java:61)- jdbc:oracle:thin:@172.28.2.21:1521/CLA
+ INFO->07/06/2024@16:01:37 (ContextoAplicacionListener.java:62)- username: iceberg
+ INFO->07/06/2024@16:01:37 (NotificacionCreditoJobScheduler.java:35)- ------- Scheduling Job  -------------------
+ INFO->07/06/2024@16:01:37 (NotificacionCreditoJobScheduler.java:48)- group1.job1 will run at: Fri Jun 07 16:02:00 COT 2024
+ INFO->07/06/2024@16:01:37 (AutenticacionURLHelper.java:44)- Ejecutando el mEtodo [ process ]... 
+ INFO->07/06/2024@16:01:37 (AutenticacionURLHelper.java:59)- Path: //login.zul
+ INFO->07/06/2024@16:01:38 (LoginAction.java:57)- Tipo de MenU: T
+ INFO->07/06/2024@16:01:38 (InicioAction.java:29)- Ejecutando mEtodo [afterCompose]...
+ INFO->07/06/2024@16:01:38 (InicioAction.java:36)- Ejecutando mEtodo [setFrameCliente]...
+ INFO->07/06/2024@16:36:10 (ConfiguradorIbatis.java:55)- SqlSession configurado OK!! 
+ INFO->07/06/2024@16:36:10 (ContextoAplicacionListener.java:56)- ruta: /home/lsyst/Documentos/python/encapsulator/version1.1/tomcat/webapps/icebergzero-pru/
+ INFO->07/06/2024@16:36:10 (ContextoAplicacionListener.java:61)- jdbc:oracle:thin:@172.28.2.21:1521/CLA
+ INFO->07/06/2024@16:36:10 (ContextoAplicacionListener.java:62)- username: iceberg
+ INFO->07/06/2024@16:36:10 (NotificacionCreditoJobScheduler.java:35)- ------- Scheduling Job  -------------------
+ INFO->07/06/2024@16:36:10 (NotificacionCreditoJobScheduler.java:48)- group1.job1 will run at: Fri Jun 07 16:37:00 COT 2024
+ INFO->07/06/2024@16:36:48 (AutenticacionURLHelper.java:44)- Ejecutando el mEtodo [ process ]... 
+ INFO->07/06/2024@16:36:48 (AutenticacionURLHelper.java:59)- Path: //login.zul
+ INFO->07/06/2024@16:36:48 (LoginAction.java:57)- Tipo de MenU: T
+ INFO->07/06/2024@16:36:48 (InicioAction.java:29)- Ejecutando mEtodo [afterCompose]...
+ INFO->07/06/2024@16:36:48 (InicioAction.java:36)- Ejecutando mEtodo [setFrameCliente]...
+ INFO->07/06/2024@16:42:33 (ConfiguradorIbatis.java:55)- SqlSession configurado OK!! 
+ INFO->07/06/2024@16:42:33 (ContextoAplicacionListener.java:56)- ruta: null
+ERROR->07/06/2024@16:42:33 (ContextoAplicacionListener.java:82)- java.io.FileNotFoundException: nullWEB-INF/classes/iceberg.properties (No existe el archivo o el directorio)
+ INFO->07/06/2024@16:42:46 (AutenticacionURLHelper.java:44)- Ejecutando el mEtodo [ process ]... 
+ INFO->07/06/2024@16:42:46 (AutenticacionURLHelper.java:59)- Path: //login.zul
+ERROR->07/06/2024@16:42:48 (LoginAction.java:77)- /WEB-INF/classes/Aplicacion.properties (No existe el archivo o el directorio)
+java.io.FileNotFoundException: /WEB-INF/classes/Aplicacion.properties (No existe el archivo o el directorio)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at java.io.FileInputStream.<init>(FileInputStream.java:93)
+	at com.casewaresa.iceberg_ge.action.LoginAction.setProperties(LoginAction.java:73)
+	at com.casewaresa.iceberg_ge.action.LoginAction.afterCompose(LoginAction.java:55)
+	at org.zkoss.zk.ui.impl.UiEngineImpl.execCreateChild0(UiEngineImpl.java:939)
+	at org.zkoss.zk.ui.impl.UiEngineImpl.execCreateChild(UiEngineImpl.java:888)
+	at org.zkoss.zk.ui.impl.UiEngineImpl.execCreate0(UiEngineImpl.java:775)
+	at org.zkoss.zk.ui.impl.UiEngineImpl.execCreateChild(UiEngineImpl.java:835)
+	at org.zkoss.zk.ui.impl.UiEngineImpl.execCreate0(UiEngineImpl.java:793)
+	at org.zkoss.zk.ui.impl.UiEngineImpl.execCreate(UiEngineImpl.java:739)
+	at org.zkoss.zk.ui.impl.UiEngineImpl.execNewPage0(UiEngineImpl.java:460)
+	at org.zkoss.zk.ui.impl.UiEngineImpl.execNewPage(UiEngineImpl.java:368)
+	at org.zkoss.zk.ui.http.DHtmlLayoutServlet.process(DHtmlLayoutServlet.java:215)
+	at com.casewaresa.framework.helper.AutenticacionURLHelper.process(AutenticacionURLHelper.java:68)
+	at org.zkoss.zk.ui.http.DHtmlLayoutServlet.doGet(DHtmlLayoutServlet.java:140)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:670)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:779)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:177)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:687)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:891)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1784)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:750)
+ INFO->07/06/2024@16:42:48 (ActionStandardBorder.java:702)- ejecutando [ mostrarExcepcion ]... 
+ INFO->07/06/2024@16:42:49 (ExcepcionPopupAction.java:439)- Ejecutando metodo: [ doModal ]
+ INFO->07/06/2024@16:42:49 (ExcepcionPopupAction.java:88)- Ejecutando metodo: [ getOrigenExcepcion ]
+ INFO->07/06/2024@16:42:49 (ExcepcionPopupAction.java:98)- Application Exception
+ INFO->07/06/2024@16:42:49 (ExcepcionPopupAction.java:183)- Ejecutando metodo: [ getExcepcionAplicacion ]
+ INFO->07/06/2024@16:42:49 (ExcepcionPopupAction.java:189)- posIniError: 42
+ INFO->07/06/2024@16:42:49 (ExcepcionPopupAction.java:190)- posFinError: 163
+ INFO->07/06/2024@16:42:49 (ExcepcionPopupAction.java:81)- Ejecutando metodo: [ actualizarIconoFuente ]
+ INFO->07/06/2024@16:42:49 (ExcepcionPopupAction.java:210)- Ejecutando metodo: [ actualizarTitulo ]
+ INFO->07/06/2024@16:42:49 (ExcepcionPopupAction.java:321)- Ejecutando metodo: [ actualizarCausa() ]
+ INFO->07/06/2024@16:42:49 (ExcepcionPopupAction.java:324)- [actualizarCausa()]
+ INFO->07/06/2024@16:42:49 (ExcepcionPopupAction.java:326)- stacTrace----> com.casewaresa.framework.excepciones.impl.Excepcion: java.io.FileNotFoundException: /WEB-INF/classes/Aplicacion.properties (No existe el archivo o el directorio)
+	at com.casewaresa.iceberg_ge.action.LoginAction.setProperties(LoginAction.java:78)
+	at com.casewaresa.iceberg_ge.action.LoginAction.afterCompose(LoginAction.java:55)
+	at org.zkoss.zk.ui.impl.UiEngineImpl.execCreateChild0(UiEngineImpl.java:939)
+	at org.zkoss.zk.ui.impl.UiEngineImpl.execCreateChild(UiEngineImpl.java:888)
+	at org.zkoss.zk.ui.impl.UiEngineImpl.execCreate0(UiEngineImpl.java:775)
+	at org.zkoss.zk.ui.impl.UiEngineImpl.execCreateChild(UiEngineImpl.java:835)
+	at org.zkoss.zk.ui.impl.UiEngineImpl.execCreate0(UiEngineImpl.java:793)
+	at org.zkoss.zk.ui.impl.UiEngineImpl.execCreate(UiEngineImpl.java:739)
+	at org.zkoss.zk.ui.impl.UiEngineImpl.execNewPage0(UiEngineImpl.java:460)
+	at org.zkoss.zk.ui.impl.UiEngineImpl.execNewPage(UiEngineImpl.java:368)
+	at org.zkoss.zk.ui.http.DHtmlLayoutServlet.process(DHtmlLayoutServlet.java:215)
+	at com.casewaresa.framework.helper.AutenticacionURLHelper.process(AutenticacionURLHelper.java:68)
+	at org.zkoss.zk.ui.http.DHtmlLayoutServlet.doGet(DHtmlLayoutServlet.java:140)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:670)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:779)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:177)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:687)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:891)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1784)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:750)
+Caused by: java.io.FileNotFoundException: /WEB-INF/classes/Aplicacion.properties (No existe el archivo o el directorio)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at java.io.FileInputStream.<init>(FileInputStream.java:93)
+	at com.casewaresa.iceberg_ge.action.LoginAction.setProperties(LoginAction.java:73)
+	... 36 more
+
+ INFO->07/06/2024@16:42:49 (ExcepcionPopupAction.java:386)-  CAUSA FINAL --->>>>>> Caused by: java.io.FileNotFoundException: /WEB-INF/classes/Aplicacion.properties (No existe el archivo o el directorio)
+
+ INFO->07/06/2024@16:42:49 (ExcepcionPopupAction.java:282)- Ejecutando metodo: [ actualizarMasInfo ]
+ INFO->07/06/2024@16:42:49 (ExcepcionPopupAction.java:285)- [actualizarMasInfo]
+ INFO->07/06/2024@16:42:49 (ExcepcionPopupAction.java:412)- Ejecutando metodo: [ actualizarSolucion ]
+ INFO->07/06/2024@16:42:49 (ActionStandardBorder.java:719)- doModal must be called in an event listener
+ INFO->07/06/2024@16:42:49 (LoginAction.java:57)- Tipo de MenU: null
+ INFO->07/06/2024@16:42:49 (InicioAction.java:29)- Ejecutando mEtodo [afterCompose]...
+ INFO->07/06/2024@16:42:49 (InicioAction.java:36)- Ejecutando mEtodo [setFrameCliente]...

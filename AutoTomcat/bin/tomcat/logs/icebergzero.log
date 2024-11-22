@@ -1,0 +1,11 @@
+ INFO->07/06/2024@16:42:43 (ConfiguradorIbatis.java:55)- SqlSession configurado OK!! 
+ INFO->07/06/2024@16:42:43 (ContextoAplicacionListener.java:56)- ruta: /home/lsyst/Documentos/python/encapsulator/version1.1/tomcat/webapps/icebergzero/
+ INFO->07/06/2024@16:42:43 (ContextoAplicacionListener.java:61)- jdbc:oracle:thin:@//dbprod:1521/PROD
+ INFO->07/06/2024@16:42:43 (ContextoAplicacionListener.java:62)- username: iceberg
+ INFO->07/06/2024@16:42:44 (NotificacionCreditoJobScheduler.java:35)- ------- Scheduling Job  -------------------
+ INFO->07/06/2024@16:42:44 (NotificacionCreditoJobScheduler.java:48)- group1.job1 will run at: Fri Jun 07 16:43:00 COT 2024
+ INFO->07/06/2024@16:42:44 (AutenticacionURLHelper.java:44)- Ejecutando el mEtodo [ process ]... 
+ INFO->07/06/2024@16:42:44 (AutenticacionURLHelper.java:59)- Path: //login.zul
+ INFO->07/06/2024@16:42:44 (LoginAction.java:57)- Tipo de MenU: T
+ INFO->07/06/2024@16:42:44 (InicioAction.java:29)- Ejecutando mEtodo [afterCompose]...
+ INFO->07/06/2024@16:42:44 (InicioAction.java:36)- Ejecutando mEtodo [setFrameCliente]...

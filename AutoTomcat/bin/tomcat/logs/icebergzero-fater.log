@@ -1,0 +1,10 @@
+ INFO->12/06/2024@09:36:56 (ConfiguradorIbatis.java:55)- SqlSession configurado OK!! 
+ INFO->12/06/2024@09:36:56 (ContextoAplicacionListener.java:56)- ruta: /home/lsyst/Descargas/tomcat/bin/tomcat/webapps/icebergzero-fater/
+ INFO->12/06/2024@09:36:56 (ContextoAplicacionListener.java:61)- jdbc:oracle:thin:@(description=(source_route=yes)(address_list=(address=(protocol=tcp)(host=172.16.201.17)(port=2015))(address=(protocol=tcp)(host=scanuaoee4.uao.edu.co)(port=1521)))(connect_data=(service_name=FATER)))
+ INFO->12/06/2024@09:36:56 (ContextoAplicacionListener.java:62)- username: iceberg
+ INFO->12/06/2024@09:36:56 (NotificacionCreditoJobScheduler.java:35)- ------- Scheduling Job  -------------------
+ INFO->12/06/2024@09:36:56 (NotificacionCreditoJobScheduler.java:48)- group1.job1 will run at: Wed Jun 12 09:37:00 COT 2024
+ INFO->12/06/2024@09:37:02 (AutenticacionURLHelper.java:42)- Ejecutando el mEtodo [ process ]... 
+ INFO->12/06/2024@09:37:02 (AutenticacionURLHelper.java:57)- Path: //login.zul
+ INFO->12/06/2024@09:39:04 (AutenticacionURLHelper.java:42)- Ejecutando el mEtodo [ process ]... 
+ INFO->12/06/2024@09:39:04 (AutenticacionURLHelper.java:57)- Path: //login.zul
