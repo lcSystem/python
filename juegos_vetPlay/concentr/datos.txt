@@ -1,0 +1,14 @@
+
+// Capturar el div con la clase "history"
+var historyDiv = document.querySelector('.history');
+
+// Capturar los divs con clase "row win" dentro del div "history"
+var divsWin = historyDiv.querySelectorAll('div.row');
+
+// Iterar sobre los divs con clase "row win" y mostrar su contenido
+divsWin.forEach(function(div) {
+    console.log(' ' + div.textContent+',');
+});
+
+
+
